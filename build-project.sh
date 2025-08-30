@@ -13,7 +13,7 @@ cd $project
 
 #create readme and add text
 touch README.md
-echo "#$name"  "#!/bin/bash">> README.md
+echo "#$name  #!/bin/bash" >> README.md
 #echo "#!/bin/bash" >> README.md
 git add README.md
 git commit -m "Add initial README.md"
