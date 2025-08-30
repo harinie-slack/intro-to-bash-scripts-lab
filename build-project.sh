@@ -11,12 +11,8 @@ mkdir $project
 #move into new dir
 cd $project
 
-#create readme and add text
+#create readme 
 touch README.md
-echo "#$name"  "#!/bin/bash" >> README.md
-#echo "#!/bin/bash" >> README.md
-git add README.md
-git commit -m "Add initial README.md"
 
 #create new file for project
 touch $project.sh
